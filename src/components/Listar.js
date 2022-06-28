@@ -11,9 +11,13 @@ class Listar extends React.Component {
         }
     }
 
+
+    // url1= http://localhost/crud-react-backend/empleados/
+    // url2= http://localhost/Proyectos/empleados/
+
     cargarDatos() {
         // Pedimos los datos al api
-        fetch("http://localhost/crud-react-backend/empleados/")
+        fetch("http://localhost/Proyectos/empleados/")
             // Obtenemos la respuesta en formato JSON
             .then(respuesta => respuesta.json())
             // Imprimimos los datos del JSON en la consolo
